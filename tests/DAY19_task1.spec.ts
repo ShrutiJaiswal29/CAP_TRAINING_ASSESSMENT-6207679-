@@ -5,7 +5,7 @@ import path from "path"
 test("Excel data recovery", async ({ page }) => {
 
     let book = new excel.Workbook()
-    await book.xlsx.readFile(path.join(__dirname, "../testdata/readexcel.xlsx"))
+    await book.xlsx.readFile(path.join(__dirname, "../testdata/readexcel.xlsx.xlsx"))
 
     let sheet = book.getWorksheet("Sheet1")
     const rowCount = sheet!.rowCount

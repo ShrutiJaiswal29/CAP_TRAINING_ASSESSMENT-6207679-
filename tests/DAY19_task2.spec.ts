@@ -4,5 +4,5 @@ import path from "path"
 test("Upload demoqa profile photo",async({page})=>{
     await page.goto("https://demoqa.com/upload-download")
     await page.locator('#downloadButton').click()
-    await page.locator('#uploadFile').setInputFiles("C:/Users/Dell/Downloads/sampleFile.jpeg")
+    await page.locator('#uploadFile').setInputFiles("C:/Users/shrut/OneDrive/Desktop/CAP_TRAINING_ASSESSMENT/downloads/newfile.txt")
 })
