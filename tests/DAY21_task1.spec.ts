@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test'
-import flipkart from "../pages/flipkart.ts";
+import flipkart from "../pages/flipkart.page.ts";
 import fs from 'fs';
 import path from 'path';
 
